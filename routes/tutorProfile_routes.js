@@ -4,7 +4,7 @@ module.exports = function(app, mysql, con){
 
         var role = req.body.role;
         var email = req.body.email;
-
+//comment
         if(role === 'tutor'){
             var fname = req.body.fname;
             var lname = req.body.lname;
