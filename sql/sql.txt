@@ -1,0 +1,50 @@
+create database tutor_app;
+
+
+
+use tutor_app;
+
+
+
+select*from tutor;
+
+select*from student;
+
+drop table Tutor;
+
+drop table  Student;
+
+
+create table Student(
+	
+	email varchar(30) primary key,
+    
+	pword varchar(100),
+    
+	name varchar(50),
+    
+	location varchar(20),
+    
+	mobile varchar(10)
+
+);
+
+
+
+create table Tutor(
+	
+	email varchar(30) primary key,
+    
+	pword varchar(100),
+    
+	FirstName varchar(20),
+    
+	LastName varchar(20),
+    
+	Location varchar(20),
+    
+	Mobile varchar(10),
+    
+	Subject varchar(20)
+
+);
